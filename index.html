@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Free Streaming Radar</title>
+    <meta
+      name="description"
+      content="A daily refreshed dashboard of the highest rated legal free movie and TV streaming sites."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Daily legal streaming scan</p>
+        <h1>Free Streaming Radar</h1>
+      </div>
+      <a class="source-link" href="data.json">Data JSON</a>
+    </header>
+
+    <main>
+      <section class="summary-grid" aria-label="Dashboard summary">
+        <div class="metric">
+          <span class="metric-label">Refreshed</span>
+          <strong id="generatedAt">Loading</strong>
+        </div>
+        <div class="metric">
+          <span class="metric-label">Legal sources</span>
+          <strong id="sourceCount">0</strong>
+        </div>
+        <div class="metric">
+          <span class="metric-label">Top score</span>
+          <strong id="topScore">0</strong>
+        </div>
+        <div class="metric">
+          <span class="metric-label">Retired / excluded</span>
+          <strong id="excludedCount">0</strong>
+        </div>
+      </section>
+
+      <section class="controls" aria-label="Dashboard controls">
+        <label class="search">
+          <span>Search</span>
+          <input id="searchInput" type="search" placeholder="Tubi, live TV, library card..." />
+        </label>
+
+        <div class="segment-group" role="group" aria-label="Filter by viewing mode">
+          <button class="segment is-active" type="button" data-filter="all">All</button>
+          <button class="segment" type="button" data-filter="movies">Movies</button>
+          <button class="segment" type="button" data-filter="tv">TV</button>
+          <button class="segment" type="button" data-filter="live">Live</button>
+          <button class="segment" type="button" data-filter="no-required-signup">No signup</button>
+          <button class="segment" type="button" data-filter="library-card">Library</button>
+        </div>
+
+        <label class="select-wrap">
+          <span>Sort</span>
+          <select id="sortSelect">
+            <option value="rating">Highest rated</option>
+            <option value="freshness">Freshest signal</option>
+            <option value="movieDepth">Movie depth</option>
+            <option value="tvDepth">TV depth</option>
+            <option value="liveDepth">Live TV depth</option>
+          </select>
+        </label>
+      </section>
+
+      <section id="cards" class="cards" aria-label="Streaming services"></section>
+
+      <section class="evidence-band" aria-label="Method and exclusions">
+        <div>
+          <p class="eyebrow">Method</p>
+          <h2>Ranked for actual free viewing utility</h2>
+          <p id="methodText"></p>
+        </div>
+        <div>
+          <p class="eyebrow">Not listed</p>
+          <div id="excludedList" class="excluded-list"></div>
+        </div>
+      </section>
+    </main>
+
+    <template id="serviceTemplate">
+      <article class="service-card">
+        <div class="card-head">
+          <div class="identity">
+            <img class="favicon" alt="" />
+            <div>
+              <p class="rank"></p>
+              <h2 class="name"></h2>
+            </div>
+          </div>
+          <div class="score">
+            <span class="score-value"></span>
+            <span class="score-label">rating</span>
+          </div>
+        </div>
+
+        <p class="best-for"></p>
+
+        <div class="bars" aria-label="Score breakdown">
+          <div class="bar-row">
+            <span>Movies</span>
+            <div class="bar"><i data-bar="movieDepth"></i></div>
+            <strong data-value="movieDepth"></strong>
+          </div>
+          <div class="bar-row">
+            <span>TV</span>
+            <div class="bar"><i data-bar="tvDepth"></i></div>
+            <strong data-value="tvDepth"></strong>
+          </div>
+          <div class="bar-row">
+            <span>Live</span>
+            <div class="bar"><i data-bar="liveDepth"></i></div>
+            <strong data-value="liveDepth"></strong>
+          </div>
+        </div>
+
+        <dl class="details">
+          <div>
+            <dt>Signup</dt>
+            <dd data-field="signup"></dd>
+          </div>
+          <div>
+            <dt>Availability</dt>
+            <dd data-field="country"></dd>
+          </div>
+          <div>
+            <dt>Source check</dt>
+            <dd data-field="health"></dd>
+          </div>
+        </dl>
+
+        <div class="signals"></div>
+
+        <footer class="card-actions">
+          <a class="watch-link" target="_blank" rel="noreferrer">Open site</a>
+          <div class="sources"></div>
+        </footer>
+      </article>
+    </template>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>

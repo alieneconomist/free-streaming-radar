@@ -1,0 +1,514 @@
+{
+  "generatedAt": "2026-06-14T14:59:46Z",
+  "refreshCadence": "Daily via GitHub Actions schedule and workflow dispatch",
+  "scope": "Legal free movie and TV streaming sites only",
+  "method": {
+    "rating": "0-100 editorial utility score combining catalog breadth, TV depth, live channel usefulness, recent-source freshness, and access friction.",
+    "latest": "Daily generator refreshes timestamp and optional source reachability; source list is curated from official pages, JustWatch provider discovery, and current editorial roundups."
+  },
+  "services": [
+    {
+      "name": "Tubi",
+      "url": "https://tubitv.com/",
+      "domain": "tubitv.com",
+      "rank": 1,
+      "rating": 96,
+      "movieDepth": 96,
+      "tvDepth": 92,
+      "liveDepth": 76,
+      "freshness": 94,
+      "signup": "Optional",
+      "bestFor": "Movies, big TV library, recent free arrivals",
+      "country": "US, Canada, Australia, Mexico, UK, Latin America availability varies",
+      "tags": [
+        "movies",
+        "tv",
+        "live",
+        "no-required-signup"
+      ],
+      "latestSignals": [
+        "Official site exposes Recently Added, Most Popular, Movies, TV Shows, and Live TV sections.",
+        "Current homepage includes 2025-2026 titles and active FOX sports/event hubs."
+      ],
+      "watchNotes": "Strong first stop for free on-demand movies and recognizable TV. Ads are the tradeoff.",
+      "sources": [
+        {
+          "label": "Tubi official catalog",
+          "url": "https://tubitv.com/"
+        },
+        {
+          "label": "Tom's Guide free streaming roundup",
+          "url": "https://www.tomsguide.com/best-picks/best-free-streaming-services"
+        },
+        {
+          "label": "JustWatch Tubi provider page",
+          "url": "https://www.justwatch.com/us/provider/tubi-tv"
+        }
+      ],
+      "legality": "Official/legal free source",
+      "price": "Free with ads or institution access",
+      "scoreBreakdown": {
+        "catalog": 94,
+        "live": 76,
+        "freshness": 94,
+        "friction": 95
+      },
+      "health": {
+        "checked": false,
+        "ok": null,
+        "status": null,
+        "error": null
+      }
+    },
+    {
+      "name": "The Roku Channel",
+      "url": "https://therokuchannel.roku.com/",
+      "domain": "therokuchannel.roku.com",
+      "rank": 2,
+      "rating": 94,
+      "movieDepth": 92,
+      "tvDepth": 91,
+      "liveDepth": 95,
+      "freshness": 92,
+      "signup": "Optional on web; device account often used",
+      "bestFor": "FAST channels, broad household viewing, originals",
+      "country": "US, Canada, Mexico, UK availability varies",
+      "tags": [
+        "movies",
+        "tv",
+        "live"
+      ],
+      "latestSignals": [
+        "Roku recently added 22 free live channels according to Tom's Guide.",
+        "Public references show 500+ free channels and a large free movie/show catalog."
+      ],
+      "watchNotes": "A top cable-like free option, especially if the viewer already uses Roku hardware.",
+      "sources": [
+        {
+          "label": "Roku Channel official site",
+          "url": "https://therokuchannel.roku.com/"
+        },
+        {
+          "label": "Tom's Guide Roku channel update",
+          "url": "https://www.tomsguide.com/entertainment/streaming/roku-just-got-22-new-free-channels-heres-what-you-can-watch-now"
+        }
+      ],
+      "legality": "Official/legal free source",
+      "price": "Free with ads or institution access",
+      "scoreBreakdown": {
+        "catalog": 92,
+        "live": 95,
+        "freshness": 92,
+        "friction": 78
+      },
+      "health": {
+        "checked": false,
+        "ok": null,
+        "status": null,
+        "error": null
+      }
+    },
+    {
+      "name": "Pluto TV",
+      "url": "https://pluto.tv/",
+      "domain": "pluto.tv",
+      "rank": 3,
+      "rating": 92,
+      "movieDepth": 86,
+      "tvDepth": 88,
+      "liveDepth": 98,
+      "freshness": 89,
+      "signup": "Optional",
+      "bestFor": "Live TV grid, channel surfing, Paramount-backed library",
+      "country": "Americas and Europe, catalog varies by country",
+      "tags": [
+        "movies",
+        "tv",
+        "live",
+        "no-required-signup"
+      ],
+      "latestSignals": [
+        "Official site positions Pluto as free movies, TV shows, and live TV.",
+        "Public references show hundreds of FAST channels and a cable-style grid model."
+      ],
+      "watchNotes": "Best when the viewer wants to turn something on now instead of searching a catalog.",
+      "sources": [
+        {
+          "label": "Pluto TV official site",
+          "url": "https://pluto.tv/"
+        },
+        {
+          "label": "FAST category reference",
+          "url": "https://en.wikipedia.org/wiki/Free_ad-supported_streaming_television"
+        }
+      ],
+      "legality": "Official/legal free source",
+      "price": "Free with ads or institution access",
+      "scoreBreakdown": {
+        "catalog": 87,
+        "live": 98,
+        "freshness": 89,
+        "friction": 95
+      },
+      "health": {
+        "checked": false,
+        "ok": null,
+        "status": null,
+        "error": null
+      }
+    },
+    {
+      "name": "Plex",
+      "url": "https://watch.plex.tv/",
+      "domain": "watch.plex.tv",
+      "rank": 4,
+      "rating": 88,
+      "movieDepth": 87,
+      "tvDepth": 82,
+      "liveDepth": 88,
+      "freshness": 84,
+      "signup": "Recommended",
+      "bestFor": "Free movies plus personal media and discovery tools",
+      "country": "Global availability varies by title",
+      "tags": [
+        "movies",
+        "tv",
+        "live"
+      ],
+      "latestSignals": [
+        "Official watch site lists free movies, TV shows, and live TV.",
+        "Editorial roundups continue to rank Plex as a major free streaming option."
+      ],
+      "watchNotes": "Good for people who also want watchlists and personal-library tooling.",
+      "sources": [
+        {
+          "label": "Plex official watch site",
+          "url": "https://watch.plex.tv/"
+        },
+        {
+          "label": "TechRadar free streaming guide",
+          "url": "https://www.techradar.com/streaming/draft-best-free-streaming-service-2024-tubi-pluto-tv-the-roku-channel-and-more"
+        }
+      ],
+      "legality": "Official/legal free source",
+      "price": "Free with ads or institution access",
+      "scoreBreakdown": {
+        "catalog": 84,
+        "live": 88,
+        "freshness": 84,
+        "friction": 78
+      },
+      "health": {
+        "checked": false,
+        "ok": null,
+        "status": null,
+        "error": null
+      }
+    },
+    {
+      "name": "Sling Freestream",
+      "url": "https://www.sling.com/freestream",
+      "domain": "sling.com",
+      "rank": 5,
+      "rating": 86,
+      "movieDepth": 83,
+      "tvDepth": 86,
+      "liveDepth": 94,
+      "freshness": 86,
+      "signup": "Free account improves experience",
+      "bestFor": "Large live channel bundle and free on-demand backup",
+      "country": "US",
+      "tags": [
+        "movies",
+        "tv",
+        "live"
+      ],
+      "latestSignals": [
+        "Official Sling page markets Freestream as free live TV, shows, movies, and news.",
+        "Recent buying guides cite hundreds of free live channels and tens of thousands of on-demand titles."
+      ],
+      "watchNotes": "A strong live-TV complement to Tubi or Plex.",
+      "sources": [
+        {
+          "label": "Sling Freestream official site",
+          "url": "https://www.sling.com/freestream"
+        },
+        {
+          "label": "TechRadar Sling trial and Freestream guide",
+          "url": "https://www.techradar.com/deals/sling-tv-free-trial"
+        }
+      ],
+      "legality": "Official/legal free source",
+      "price": "Free with ads or institution access",
+      "scoreBreakdown": {
+        "catalog": 84,
+        "live": 94,
+        "freshness": 86,
+        "friction": 78
+      },
+      "health": {
+        "checked": false,
+        "ok": null,
+        "status": null,
+        "error": null
+      }
+    },
+    {
+      "name": "YouTube Free",
+      "url": "https://www.youtube.com/feed/storefront?bp=ogUCKAI%3D",
+      "domain": "youtube.com",
+      "rank": 6,
+      "rating": 84,
+      "movieDepth": 86,
+      "tvDepth": 72,
+      "liveDepth": 68,
+      "freshness": 82,
+      "signup": "Optional",
+      "bestFor": "Free movies, clips, creator-adjacent discovery",
+      "country": "Global availability varies",
+      "tags": [
+        "movies",
+        "tv",
+        "no-required-signup"
+      ],
+      "latestSignals": [
+        "Major free-streaming roundups include YouTube as a free movies and series source.",
+        "JustWatch tracks YouTube Free as a separate free provider."
+      ],
+      "watchNotes": "Huge reach, but the free movie catalog can be noisier than dedicated FAST apps.",
+      "sources": [
+        {
+          "label": "Tom's Guide free streaming roundup",
+          "url": "https://www.tomsguide.com/best-picks/best-free-streaming-services"
+        },
+        {
+          "label": "JustWatch provider directory",
+          "url": "https://www.justwatch.com/us/provider/tubi-tv"
+        }
+      ],
+      "legality": "Official/legal free source",
+      "price": "Free with ads or institution access",
+      "scoreBreakdown": {
+        "catalog": 79,
+        "live": 68,
+        "freshness": 82,
+        "friction": 95
+      },
+      "health": {
+        "checked": false,
+        "ok": null,
+        "status": null,
+        "error": null
+      }
+    },
+    {
+      "name": "Fandango at Home Free",
+      "url": "https://www.vudu.com/content/movies/free",
+      "domain": "vudu.com",
+      "rank": 7,
+      "rating": 82,
+      "movieDepth": 84,
+      "tvDepth": 70,
+      "liveDepth": 45,
+      "freshness": 78,
+      "signup": "Required",
+      "bestFor": "Free-with-ads movies next to rentals and purchases",
+      "country": "US",
+      "tags": [
+        "movies",
+        "tv"
+      ],
+      "latestSignals": [
+        "Editorial roundups still include Fandango at Home/Vudu for free ad-supported movies.",
+        "JustWatch tracks Fandango as a provider in the US catalog."
+      ],
+      "watchNotes": "Useful when a viewer already uses Fandango/Vudu for rentals.",
+      "sources": [
+        {
+          "label": "Tom's Guide free streaming roundup",
+          "url": "https://www.tomsguide.com/best-picks/best-free-streaming-services"
+        },
+        {
+          "label": "JustWatch provider directory",
+          "url": "https://www.justwatch.com/us/provider/tubi-tv"
+        }
+      ],
+      "legality": "Official/legal free source",
+      "price": "Free with ads or institution access",
+      "scoreBreakdown": {
+        "catalog": 77,
+        "live": 45,
+        "freshness": 78,
+        "friction": 78
+      },
+      "health": {
+        "checked": false,
+        "ok": null,
+        "status": null,
+        "error": null
+      }
+    },
+    {
+      "name": "Kanopy",
+      "url": "https://www.kanopy.com/",
+      "domain": "kanopy.com",
+      "rank": 8,
+      "rating": 81,
+      "movieDepth": 82,
+      "tvDepth": 66,
+      "liveDepth": 0,
+      "freshness": 76,
+      "signup": "Library or university card required",
+      "bestFor": "Critically regarded cinema, documentaries, education",
+      "country": "Library/university dependent",
+      "tags": [
+        "movies",
+        "tv",
+        "library-card"
+      ],
+      "latestSignals": [
+        "TechRadar ranks Kanopy as a distinct free option for educational and classic cinema.",
+        "Access depends on a participating library or university, so it is not universal."
+      ],
+      "watchNotes": "Highest signal-to-noise for film lovers if the user's library supports it.",
+      "sources": [
+        {
+          "label": "Kanopy official site",
+          "url": "https://www.kanopy.com/"
+        },
+        {
+          "label": "TechRadar free streaming guide",
+          "url": "https://www.techradar.com/streaming/draft-best-free-streaming-service-2024-tubi-pluto-tv-the-roku-channel-and-more"
+        }
+      ],
+      "legality": "Official/legal free source",
+      "price": "Free with ads or institution access",
+      "scoreBreakdown": {
+        "catalog": 74,
+        "live": 0,
+        "freshness": 76,
+        "friction": 78
+      },
+      "health": {
+        "checked": false,
+        "ok": null,
+        "status": null,
+        "error": null
+      }
+    },
+    {
+      "name": "Xumo Play",
+      "url": "https://play.xumo.com/",
+      "domain": "xumo.com",
+      "rank": 9,
+      "rating": 78,
+      "movieDepth": 73,
+      "tvDepth": 76,
+      "liveDepth": 88,
+      "freshness": 74,
+      "signup": "Optional",
+      "bestFor": "Live FAST channels and lean-back viewing",
+      "country": "US, availability varies",
+      "tags": [
+        "movies",
+        "tv",
+        "live",
+        "no-required-signup"
+      ],
+      "latestSignals": [
+        "FAST category references list Xumo as a major ad-supported platform.",
+        "JustWatch tracks Xumo Play as a US provider."
+      ],
+      "watchNotes": "Good secondary live-TV option behind Pluto/Roku/Sling.",
+      "sources": [
+        {
+          "label": "Xumo Play official site",
+          "url": "https://play.xumo.com/"
+        },
+        {
+          "label": "FAST category reference",
+          "url": "https://en.wikipedia.org/wiki/Free_ad-supported_streaming_television"
+        }
+      ],
+      "legality": "Official/legal free source",
+      "price": "Free with ads or institution access",
+      "scoreBreakdown": {
+        "catalog": 74,
+        "live": 88,
+        "freshness": 74,
+        "friction": 95
+      },
+      "health": {
+        "checked": false,
+        "ok": null,
+        "status": null,
+        "error": null
+      }
+    },
+    {
+      "name": "Samsung TV Plus",
+      "url": "https://www.samsungtvplus.com/",
+      "domain": "samsungtvplus.com",
+      "rank": 10,
+      "rating": 76,
+      "movieDepth": 70,
+      "tvDepth": 75,
+      "liveDepth": 90,
+      "freshness": 72,
+      "signup": "Device/web availability varies",
+      "bestFor": "Samsung-device live channels",
+      "country": "Selected countries",
+      "tags": [
+        "movies",
+        "tv",
+        "live"
+      ],
+      "latestSignals": [
+        "FAST references list Samsung TV Plus as a major device-owned platform.",
+        "Recent free-movie roundups cite Samsung TV Plus for rotating free titles."
+      ],
+      "watchNotes": "Best if the viewer already has a Samsung TV or Galaxy device.",
+      "sources": [
+        {
+          "label": "Samsung TV Plus official site",
+          "url": "https://www.samsungtvplus.com/"
+        },
+        {
+          "label": "FAST category reference",
+          "url": "https://en.wikipedia.org/wiki/Free_ad-supported_streaming_television"
+        }
+      ],
+      "legality": "Official/legal free source",
+      "price": "Free with ads or institution access",
+      "scoreBreakdown": {
+        "catalog": 72,
+        "live": 90,
+        "freshness": 72,
+        "friction": 78
+      },
+      "health": {
+        "checked": false,
+        "ok": null,
+        "status": null,
+        "error": null
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "name": "Amazon Freevee",
+      "reason": "Retired as a standalone service; free content moved into Prime Video's free-with-ads area.",
+      "source": "https://www.theverge.com/2024/11/12/24295129/amazon-shutting-down-freevee-prime-video"
+    },
+    {
+      "name": "Peacock free tier",
+      "reason": "No longer broadly available to new customers as a free standalone tier.",
+      "source": "https://en.wikipedia.org/wiki/Peacock_(streaming_service)"
+    },
+    {
+      "name": "Unlicensed mirror sites",
+      "reason": "Excluded intentionally. This dashboard only lists legitimate ad-supported, library, or official free sources.",
+      "source": "https://en.wikipedia.org/wiki/Free_ad-supported_streaming_television"
+    }
+  ]
+}
