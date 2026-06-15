@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T14:59:46Z",
+  "generatedAt": "2026-06-15T15:25:40Z",
   "refreshCadence": "Daily via GitHub Actions schedule and workflow dispatch",
   "scope": "Legal free movie and TV streaming sites only",
   "method": {
@@ -54,9 +54,9 @@
         "friction": 95
       },
       "health": {
-        "checked": false,
-        "ok": null,
-        "status": null,
+        "checked": true,
+        "ok": true,
+        "status": 200,
         "error": null
       }
     },
@@ -102,9 +102,9 @@
         "friction": 78
       },
       "health": {
-        "checked": false,
-        "ok": null,
-        "status": null,
+        "checked": true,
+        "ok": true,
+        "status": 200,
         "error": null
       }
     },
@@ -151,9 +151,9 @@
         "friction": 95
       },
       "health": {
-        "checked": false,
-        "ok": null,
-        "status": null,
+        "checked": true,
+        "ok": true,
+        "status": 200,
         "error": null
       }
     },
@@ -199,9 +199,9 @@
         "friction": 78
       },
       "health": {
-        "checked": false,
-        "ok": null,
-        "status": null,
+        "checked": true,
+        "ok": true,
+        "status": 200,
         "error": null
       }
     },
@@ -247,9 +247,9 @@
         "friction": 78
       },
       "health": {
-        "checked": false,
-        "ok": null,
-        "status": null,
+        "checked": true,
+        "ok": true,
+        "status": 200,
         "error": null
       }
     },
@@ -295,9 +295,9 @@
         "friction": 95
       },
       "health": {
-        "checked": false,
-        "ok": null,
-        "status": null,
+        "checked": true,
+        "ok": true,
+        "status": 200,
         "error": null
       }
     },
@@ -342,9 +342,9 @@
         "friction": 78
       },
       "health": {
-        "checked": false,
-        "ok": null,
-        "status": null,
+        "checked": true,
+        "ok": true,
+        "status": 200,
         "error": null
       }
     },
@@ -390,9 +390,9 @@
         "friction": 78
       },
       "health": {
-        "checked": false,
-        "ok": null,
-        "status": null,
+        "checked": true,
+        "ok": true,
+        "status": 200,
         "error": null
       }
     },
@@ -439,9 +439,9 @@
         "friction": 95
       },
       "health": {
-        "checked": false,
-        "ok": null,
-        "status": null,
+        "checked": true,
+        "ok": true,
+        "status": 200,
         "error": null
       }
     },
@@ -487,9 +487,9 @@
         "friction": 78
       },
       "health": {
-        "checked": false,
-        "ok": null,
-        "status": null,
+        "checked": true,
+        "ok": true,
+        "status": 200,
         "error": null
       }
     }
