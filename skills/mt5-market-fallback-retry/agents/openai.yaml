@@ -1,0 +1,4 @@
+interface:
+  display_name: "MT5 Market Fallback Retry"
+  short_description: "Retry invalid-price orders as market fills"
+  default_prompt: "Use this skill when an MT5 EA must handle invalid-price pending order failures by retrying immediately as a market order and recalculating take profit from the actual fill price without coupling to a specific strategy."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "MT5 Isolated Launcher"
+  short_description: "Launch isolated MT5 jobs safely"
+  default_prompt: "Use $mt5-isolated-launcher to launch isolated headless MT5 jobs with unique configs and report paths."

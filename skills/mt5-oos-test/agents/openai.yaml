@@ -1,0 +1,4 @@
+interface:
+  display_name: "MT5 OOS Test"
+  short_description: "Run comparable MT5 out-of-sample tests"
+  default_prompt: "Use $mt5-oos-test to run an MT5 out-of-sample pass with a comparable window and evaluate performance."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "MALE Linear Regression"
+  short_description: "Rank MT5 parameter impact with linear regression"
+  default_prompt: "Use $male-linear-regression to rank the MT5 parameters that most affect strategy performance before deeper optimization."

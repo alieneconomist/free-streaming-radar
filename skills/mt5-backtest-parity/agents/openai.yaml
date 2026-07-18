@@ -1,0 +1,4 @@
+interface:
+  display_name: "MT5 Backtest Parity"
+  short_description: "Reproduce and compare MT5 backtests"
+  default_prompt: "Use $mt5-backtest-parity to reproduce an MT5 Strategy Tester run, compare it to the stored report, and explain any parity gap."

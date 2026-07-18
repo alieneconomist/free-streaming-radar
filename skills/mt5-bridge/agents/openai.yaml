@@ -1,0 +1,4 @@
+interface:
+  display_name: "MT5 Bridge"
+  short_description: "MT5 bridge package for headless job runs"
+  default_prompt: "Use $mt5-bridge to stage a frozen MT5 job with the bridge package, run MT5 headlessly, and verify the report."

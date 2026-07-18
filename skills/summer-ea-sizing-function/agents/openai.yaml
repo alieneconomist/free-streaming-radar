@@ -1,0 +1,4 @@
+interface:
+  display_name: "Summer EA Sizing Function"
+  short_description: "Reuse Summer EA sizing in any MT5 EA"
+  default_prompt: "Use this skill when porting or recreating Summer EA position sizing in an MT5 EA, including fixed lot, fixed ratio, dollar risk, percentage sizing, prior-profit handling, equity floor protection, and margin checks, while keeping the sizing module strategy-agnostic."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "FTMO Optimization by Breadth"
+  short_description: "Find symbols that fit a frozen MT5 template"
+  default_prompt: "Use this skill to scan a full symbol list for symbol-fit against any frozen MT5 strategy template, ranking symbols first by structural fit and then by headless MT5 validation."

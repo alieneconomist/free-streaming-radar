@@ -1,0 +1,4 @@
+interface:
+  display_name: "FTMO Optimization by Depth"
+  short_description: "Optimize frozen MT5 parameters for FTMO readiness"
+  default_prompt: "Use this skill to find the biggest parameter needle movers first, then expand into MT5 parameter-only optimization with parity, shadow testing, OOS validation, and regression-based attribution for any frozen MT5 strategy template."

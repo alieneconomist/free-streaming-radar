@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shadow testing"
+  short_description: "Headless MT5 runs from ini/config"
+  default_prompt: "Use $shadow-testing to run MT5 Strategy Tester headlessly from prepared ini/config files with frozen inputs and audit-ready reports."

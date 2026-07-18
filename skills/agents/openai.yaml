@@ -1,0 +1,4 @@
+interface:
+  display_name: "Detailed Logs"
+  short_description: "Add diagnostic signal logs to any MT5 EA"
+  default_prompt: "Use this skill when instrumenting an MT5 EA to log each signal gate, rejection reason, and order outcome for troubleshooting, while keeping the logs strategy-agnostic and reusable across entry and exit models."
